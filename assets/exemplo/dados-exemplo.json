@@ -1,0 +1,2593 @@
+{
+ "semana": 43,
+ "ano": 2026,
+ "inicio_semana": "2026-10-19",
+ "corte": "2026-10-25",
+ "dias_mes": 31,
+ "coordenador": "Coordenadora Exemplo",
+ "revisor": "Revisor Exemplo",
+ "semanas_historico": [
+  "2026-09-05",
+  "2026-09-12",
+  "2026-09-19",
+  "2026-09-26",
+  "2026-10-03",
+  "2026-10-10",
+  "2026-10-17",
+  "2026-10-24"
+ ],
+ "familias": {
+  "topo": [
+   "Geração de lead",
+   "Entra pouco lead ou lead caro"
+  ],
+  "qualif": [
+   "Lead → MQL",
+   "Lead não vira MQL"
+  ],
+  "sql": [
+   "MQL → SQL",
+   "MQL não vira SQL"
+  ],
+  "fecha": [
+   "SQL → Venda",
+   "SQL não vira venda"
+  ],
+  "verba": [
+   "Verba e ROAS",
+   "Investimento e retorno abaixo"
+  ]
+ },
+ "projetos": [
+  {
+   "id": "P01",
+   "documentId": "exemplo01",
+   "nome": "Projeto 01",
+   "nome_cockpit": "PROJETO 01 LTDA",
+   "grupo": "hs",
+   "hs": 15.6,
+   "resultado": 9.0,
+   "meta_oficial": {
+    "tipo": "Faturamento",
+    "meta": 22500.0,
+    "alcancado": 16492.0,
+    "pct": 0.9088924444444445
+   },
+   "gargalo": {
+    "familia": "verba",
+    "etapa": "fat",
+    "secundario": ""
+   },
+   "texto": "Faturamento é onde o funil quebra: 42% do esperado até 25/10.",
+   "etapas": [
+    {
+     "k": "inv",
+     "rotulo": "Investimento",
+     "dinheiro": true,
+     "meta": 2000.0,
+     "esperado": 1612.9032258064515,
+     "real": 1146.0,
+     "pct": 0.71052
+    },
+    {
+     "k": "vendas",
+     "rotulo": "Vendas",
+     "dinheiro": false,
+     "meta": 150.0,
+     "esperado": 120.96774193548386,
+     "real": null,
+     "pct": null
+    },
+    {
+     "k": "fat",
+     "rotulo": "Faturamento",
+     "dinheiro": true,
+     "meta": 22500.0,
+     "esperado": 18145.16129032258,
+     "real": 7671.66,
+     "pct": 0.42279370666666666
+    }
+   ],
+   "conversoes": [
+    {
+     "rotulo": "ROAS",
+     "plano": 11.25,
+     "real": 6.694293193717277,
+     "tipo": "x"
+    }
+   ],
+   "pendencias": [
+    "Vendas sem lançamento do mês (último registro 11/09)",
+    "Ops Tráfego FALSE: Fora do Pacing de mídia"
+   ],
+   "dimensoes": [
+    {
+     "rotulo": "Resultado",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Operação de tráfego",
+     "ok": false,
+     "texto": "Fora do Pacing de mídia"
+    },
+    {
+     "rotulo": "Qualidade",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Prazo",
+     "ok": false,
+     "texto": "Demora do cliente. Cliente ainda não enviou os produtos da Black Friday"
+    },
+    {
+     "rotulo": "Relacionamento",
+     "ok": false,
+     "texto": "Relacionamento falso no Cockpit, sem motivo de anomalia preenchido."
+    }
+   ],
+   "historico": {
+    "Resultado": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     true
+    ],
+    "Operação de tráfego": [
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false
+    ],
+    "Qualidade": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Prazo": [
+     true,
+     true,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "Relacionamento": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   },
+   "plano": [],
+   "plano_nota": ""
+  },
+  {
+   "id": "P02",
+   "documentId": "exemplo02",
+   "nome": "Projeto 02",
+   "nome_cockpit": "PROJETO 02 LTDA",
+   "grupo": "hs",
+   "hs": 17.3,
+   "resultado": 0.0,
+   "meta_oficial": {
+    "tipo": "Faturamento",
+    "meta": 60000.0,
+    "alcancado": 0.0,
+    "pct": 0.0
+   },
+   "gargalo": {
+    "familia": "sql",
+    "etapa": "sql",
+    "secundario": ""
+   },
+   "texto": "SQL é onde o funil quebra: 74% do esperado até 25/10.",
+   "etapas": [
+    {
+     "k": "inv",
+     "rotulo": "Investimento",
+     "dinheiro": true,
+     "meta": 3000.0,
+     "esperado": 2419.354838709677,
+     "real": 1916.0,
+     "pct": 0.7919466666666668
+    },
+    {
+     "k": "leads",
+     "rotulo": "Leads",
+     "dinheiro": false,
+     "meta": 100.0,
+     "esperado": 80.64516129032258,
+     "real": 76.0,
+     "pct": 0.9424
+    },
+    {
+     "k": "mql",
+     "rotulo": "MQL",
+     "dinheiro": false,
+     "meta": 45.0,
+     "esperado": 36.29032258064516,
+     "real": 38.0,
+     "pct": 1.047111111111111
+    },
+    {
+     "k": "sql",
+     "rotulo": "SQL",
+     "dinheiro": false,
+     "meta": 30.0,
+     "esperado": 24.193548387096772,
+     "real": 18.0,
+     "pct": 0.7440000000000001
+    },
+    {
+     "k": "vendas",
+     "rotulo": "Vendas",
+     "dinheiro": false,
+     "meta": 6.0,
+     "esperado": 4.838709677419354,
+     "real": null,
+     "pct": null
+    },
+    {
+     "k": "fat",
+     "rotulo": "Faturamento",
+     "dinheiro": true,
+     "meta": 60000.0,
+     "esperado": 48387.096774193546,
+     "real": null,
+     "pct": null
+    }
+   ],
+   "conversoes": [
+    {
+     "rotulo": "Leads → MQL",
+     "plano": 0.45,
+     "real": 0.5,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "MQL → SQL",
+     "plano": 0.6666666666666666,
+     "real": 0.47368421052631576,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "SQL → Venda",
+     "plano": 0.2,
+     "real": null,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "Custo por lead",
+     "plano": 30.0,
+     "real": 25.210526315789473,
+     "tipo": "brl",
+     "menor_melhor": true
+    }
+   ],
+   "pendencias": [
+    "Vendas sem lançamento do mês (último registro 11/09)",
+    "Faturamento sem lançamento do mês (último registro 11/09)"
+   ],
+   "dimensoes": [
+    {
+     "rotulo": "Resultado",
+     "ok": false,
+     "texto": "Resultado 0, abaixo de 7."
+    },
+    {
+     "rotulo": "Operação de tráfego",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Qualidade",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Prazo",
+     "ok": false,
+     "texto": "Demora do cliente"
+    },
+    {
+     "rotulo": "Relacionamento",
+     "ok": false,
+     "texto": "Relacionamento falso no Cockpit, sem motivo de anomalia preenchido."
+    }
+   ],
+   "historico": {
+    "Resultado": [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "Operação de tráfego": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Qualidade": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Prazo": [
+     true,
+     true,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "Relacionamento": [
+     true,
+     true,
+     true,
+     true,
+     false,
+     false,
+     true,
+     false
+    ]
+   },
+   "plano": [],
+   "plano_nota": ""
+  },
+  {
+   "id": "P03",
+   "documentId": "exemplo03",
+   "nome": "Projeto 03",
+   "nome_cockpit": "PROJETO 03 LTDA",
+   "grupo": "hs",
+   "hs": 17.8,
+   "resultado": 0.0,
+   "meta_oficial": {
+    "tipo": "VENDAS",
+    "meta": 10.0,
+    "alcancado": 0.0,
+    "pct": 0.0
+   },
+   "gargalo": {
+    "familia": "fecha",
+    "etapa": "vendas",
+    "secundario": ""
+   },
+   "texto": "Vendas é onde o funil quebra: 0% do esperado até 25/10.",
+   "etapas": [
+    {
+     "k": "inv",
+     "rotulo": "Investimento",
+     "dinheiro": true,
+     "meta": 4000.0,
+     "esperado": 3225.806451612903,
+     "real": 2530.6,
+     "pct": 0.784486
+    },
+    {
+     "k": "leads",
+     "rotulo": "Leads",
+     "dinheiro": false,
+     "meta": 450.0,
+     "esperado": 362.9032258064516,
+     "real": 151.0,
+     "pct": 0.4160888888888889
+    },
+    {
+     "k": "mql",
+     "rotulo": "MQL",
+     "dinheiro": false,
+     "meta": 144.0,
+     "esperado": 116.12903225806451,
+     "real": 86.0,
+     "pct": 0.7405555555555556
+    },
+    {
+     "k": "sql",
+     "rotulo": "SQL",
+     "dinheiro": false,
+     "meta": 48.0,
+     "esperado": 38.70967741935483,
+     "real": 59.0,
+     "pct": 1.524166666666667
+    },
+    {
+     "k": "vendas",
+     "rotulo": "Vendas",
+     "dinheiro": false,
+     "meta": 10.0,
+     "esperado": 8.064516129032258,
+     "real": 0.0,
+     "pct": 0.0
+    }
+   ],
+   "conversoes": [
+    {
+     "rotulo": "Leads → MQL",
+     "plano": 0.32,
+     "real": 0.5695364238410596,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "MQL → SQL",
+     "plano": 0.3333333333333333,
+     "real": 0.686046511627907,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "SQL → Venda",
+     "plano": 0.20833333333333334,
+     "real": 0.0,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "Custo por lead",
+     "plano": 8.88888888888889,
+     "real": 16.758940397350994,
+     "tipo": "brl",
+     "menor_melhor": true
+    }
+   ],
+   "pendencias": [],
+   "dimensoes": [
+    {
+     "rotulo": "Resultado",
+     "ok": false,
+     "texto": "Resultado 0, abaixo de 7."
+    },
+    {
+     "rotulo": "Operação de tráfego",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Qualidade",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Prazo",
+     "ok": false,
+     "texto": "Demora do cliente. Cliente ainda não gravou os vídeos e não definiu/ aprovou a oferta da Black Friday"
+    },
+    {
+     "rotulo": "Relacionamento",
+     "ok": true,
+     "texto": ""
+    }
+   ],
+   "historico": {
+    "Resultado": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     false
+    ],
+    "Operação de tráfego": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     true
+    ],
+    "Qualidade": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     true
+    ],
+    "Prazo": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     false
+    ],
+    "Relacionamento": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     true
+    ]
+   },
+   "plano": [],
+   "plano_nota": ""
+  },
+  {
+   "id": "P04",
+   "documentId": "exemplo04",
+   "nome": "Projeto 04",
+   "nome_cockpit": "PROJETO 04 LTDA",
+   "grupo": "hs",
+   "hs": 18.9,
+   "resultado": 3.0,
+   "meta_oficial": {
+    "tipo": "VENDAS",
+    "meta": 55.0,
+    "alcancado": 15.0,
+    "pct": 0.3381818181818182
+   },
+   "gargalo": {
+    "familia": "sql",
+    "etapa": "sql",
+    "secundario": ""
+   },
+   "texto": "SQL é onde o funil quebra: 19% do esperado até 25/10.",
+   "etapas": [
+    {
+     "k": "inv",
+     "rotulo": "Investimento",
+     "dinheiro": true,
+     "meta": 12500.0,
+     "esperado": 10080.645161290322,
+     "real": 6696.0,
+     "pct": 0.6642432
+    },
+    {
+     "k": "leads",
+     "rotulo": "Leads",
+     "dinheiro": false,
+     "meta": 850.0,
+     "esperado": 685.4838709677418,
+     "real": 1214.0,
+     "pct": 1.7710117647058825
+    },
+    {
+     "k": "mql",
+     "rotulo": "MQL",
+     "dinheiro": false,
+     "meta": 380.0,
+     "esperado": 306.4516129032258,
+     "real": 340.0,
+     "pct": 1.1094736842105264
+    },
+    {
+     "k": "sql",
+     "rotulo": "SQL",
+     "dinheiro": false,
+     "meta": 230.0,
+     "esperado": 185.48387096774192,
+     "real": 35.0,
+     "pct": 0.18869565217391307
+    },
+    {
+     "k": "vendas",
+     "rotulo": "Vendas",
+     "dinheiro": false,
+     "meta": 110.0,
+     "esperado": 88.70967741935483,
+     "real": 15.0,
+     "pct": 0.1690909090909091
+    },
+    {
+     "k": "fat",
+     "rotulo": "Faturamento",
+     "dinheiro": true,
+     "meta": 180000.0,
+     "esperado": 145161.29032258064,
+     "real": 33000.0,
+     "pct": 0.22733333333333336
+    }
+   ],
+   "conversoes": [
+    {
+     "rotulo": "Leads → MQL",
+     "plano": 0.4470588235294118,
+     "real": 0.2800658978583196,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "MQL → SQL",
+     "plano": 0.6052631578947368,
+     "real": 0.10294117647058823,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "SQL → Venda",
+     "plano": 0.4782608695652174,
+     "real": 0.42857142857142855,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "Custo por lead",
+     "plano": 14.705882352941176,
+     "real": 5.515650741350906,
+     "tipo": "brl",
+     "menor_melhor": true
+    }
+   ],
+   "pendencias": [],
+   "dimensoes": [
+    {
+     "rotulo": "Resultado",
+     "ok": false,
+     "texto": "Resultado 3, abaixo de 7."
+    },
+    {
+     "rotulo": "Operação de tráfego",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Qualidade",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Prazo",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Relacionamento",
+     "ok": true,
+     "texto": ""
+    }
+   ],
+   "historico": {
+    "Resultado": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "Operação de tráfego": [
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Qualidade": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Prazo": [
+     true,
+     true,
+     true,
+     true,
+     false,
+     true,
+     false,
+     true
+    ],
+    "Relacionamento": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "plano": [],
+   "plano_nota": ""
+  },
+  {
+   "id": "P05",
+   "documentId": "exemplo05",
+   "nome": "Projeto 05",
+   "nome_cockpit": "PROJETO 05 LTDA",
+   "grupo": "hs",
+   "hs": 18.9,
+   "resultado": 0.0,
+   "meta_oficial": {
+    "tipo": "Faturamento",
+    "meta": 114000.0,
+    "alcancado": 0.0,
+    "pct": 0.0
+   },
+   "gargalo": {
+    "familia": "fecha",
+    "etapa": "vendas",
+    "secundario": ""
+   },
+   "texto": "Vendas é onde o funil quebra: 0% do esperado até 25/10.",
+   "etapas": [
+    {
+     "k": "inv",
+     "rotulo": "Investimento",
+     "dinheiro": true,
+     "meta": 3000.0,
+     "esperado": 2419.354838709677,
+     "real": 1781.0,
+     "pct": 0.7361466666666667
+    },
+    {
+     "k": "leads",
+     "rotulo": "Leads",
+     "dinheiro": false,
+     "meta": 525.0,
+     "esperado": 423.38709677419354,
+     "real": 268.0,
+     "pct": 0.6329904761904762
+    },
+    {
+     "k": "mql",
+     "rotulo": "MQL",
+     "dinheiro": false,
+     "meta": 104.0,
+     "esperado": 83.87096774193547,
+     "real": 25.0,
+     "pct": 0.29807692307692313
+    },
+    {
+     "k": "sql",
+     "rotulo": "SQL",
+     "dinheiro": false,
+     "meta": 99.0,
+     "esperado": 79.83870967741935,
+     "real": 19.0,
+     "pct": 0.237979797979798
+    },
+    {
+     "k": "vendas",
+     "rotulo": "Vendas",
+     "dinheiro": false,
+     "meta": 2.0,
+     "esperado": 1.6129032258064515,
+     "real": 0.0,
+     "pct": 0.0
+    },
+    {
+     "k": "fat",
+     "rotulo": "Faturamento",
+     "dinheiro": true,
+     "meta": 60000.0,
+     "esperado": 48387.096774193546,
+     "real": 0.0,
+     "pct": 0.0
+    }
+   ],
+   "conversoes": [
+    {
+     "rotulo": "Leads → MQL",
+     "plano": 0.1980952380952381,
+     "real": 0.09328358208955224,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "MQL → SQL",
+     "plano": 0.9519230769230769,
+     "real": 0.76,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "SQL → Venda",
+     "plano": 0.020202020202020204,
+     "real": 0.0,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "Custo por lead",
+     "plano": 5.714285714285714,
+     "real": 6.645522388059701,
+     "tipo": "brl",
+     "menor_melhor": true
+    }
+   ],
+   "pendencias": [
+    "Meta de tráfego R$ 60.000 × meta oficial R$ 114.000"
+   ],
+   "dimensoes": [
+    {
+     "rotulo": "Resultado",
+     "ok": false,
+     "texto": "Resultado 0, abaixo de 7."
+    },
+    {
+     "rotulo": "Operação de tráfego",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Qualidade",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Prazo",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Relacionamento",
+     "ok": true,
+     "texto": ""
+    }
+   ],
+   "historico": {
+    "Resultado": [
+     false,
+     false,
+     true,
+     true,
+     true,
+     false,
+     false,
+     false
+    ],
+    "Operação de tráfego": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Qualidade": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Prazo": [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    "Relacionamento": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     true
+    ]
+   },
+   "plano": [],
+   "plano_nota": ""
+  },
+  {
+   "id": "P06",
+   "documentId": "exemplo06",
+   "nome": "Projeto 06",
+   "nome_cockpit": "PROJETO 06 LTDA",
+   "grupo": "hs",
+   "hs": 19.7,
+   "resultado": 0.0,
+   "meta_oficial": {
+    "tipo": "Faturamento",
+    "meta": 12000.0,
+    "alcancado": 0.0,
+    "pct": 0.0
+   },
+   "gargalo": {
+    "familia": "sql",
+    "etapa": "sql",
+    "secundario": ""
+   },
+   "texto": "SQL é onde o funil quebra: 0% do esperado até 25/10.",
+   "etapas": [
+    {
+     "k": "inv",
+     "rotulo": "Investimento",
+     "dinheiro": true,
+     "meta": 4000.0,
+     "esperado": 3225.806451612903,
+     "real": 1213.27,
+     "pct": 0.37611370000000005
+    },
+    {
+     "k": "leads",
+     "rotulo": "Leads",
+     "dinheiro": false,
+     "meta": 65.0,
+     "esperado": 52.41935483870967,
+     "real": 24.0,
+     "pct": 0.4578461538461539
+    },
+    {
+     "k": "mql",
+     "rotulo": "MQL",
+     "dinheiro": false,
+     "meta": 24.0,
+     "esperado": 19.354838709677416,
+     "real": 4.0,
+     "pct": 0.2066666666666667
+    },
+    {
+     "k": "sql",
+     "rotulo": "SQL",
+     "dinheiro": false,
+     "meta": 12.0,
+     "esperado": 9.677419354838708,
+     "real": 0.0,
+     "pct": 0.0
+    },
+    {
+     "k": "vendas",
+     "rotulo": "Vendas",
+     "dinheiro": false,
+     "meta": 1.0,
+     "esperado": 0.8064516129032258,
+     "real": 0.0,
+     "pct": 0.0
+    },
+    {
+     "k": "fat",
+     "rotulo": "Faturamento",
+     "dinheiro": true,
+     "meta": 12000.0,
+     "esperado": 9677.419354838708,
+     "real": 0.0,
+     "pct": 0.0
+    }
+   ],
+   "conversoes": [
+    {
+     "rotulo": "Leads → MQL",
+     "plano": 0.36923076923076925,
+     "real": 0.16666666666666666,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "MQL → SQL",
+     "plano": 0.5,
+     "real": 0.0,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "SQL → Venda",
+     "plano": 0.08333333333333333,
+     "real": null,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "Custo por lead",
+     "plano": 61.53846153846154,
+     "real": 50.55291666666667,
+     "tipo": "brl",
+     "menor_melhor": true
+    }
+   ],
+   "pendencias": [],
+   "dimensoes": [
+    {
+     "rotulo": "Resultado",
+     "ok": false,
+     "texto": "Resultado 0, abaixo de 7."
+    },
+    {
+     "rotulo": "Operação de tráfego",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Qualidade",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Prazo",
+     "ok": false,
+     "texto": "Demora do cliente. Cliente ainda não gravou os vídeos"
+    },
+    {
+     "rotulo": "Relacionamento",
+     "ok": true,
+     "texto": ""
+    }
+   ],
+   "historico": {
+    "Resultado": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "Operação de tráfego": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Qualidade": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Prazo": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false
+    ],
+    "Relacionamento": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "plano": [],
+   "plano_nota": ""
+  },
+  {
+   "id": "P07",
+   "documentId": "exemplo07",
+   "nome": "Projeto 07",
+   "nome_cockpit": "PROJETO 07 LTDA",
+   "grupo": "hs",
+   "hs": 20.5,
+   "resultado": 0.0,
+   "meta_oficial": {
+    "tipo": "VENDAS",
+    "meta": 2.0,
+    "alcancado": 0.0,
+    "pct": 0.0
+   },
+   "gargalo": {
+    "familia": "fecha",
+    "etapa": "vendas",
+    "secundario": ""
+   },
+   "texto": "Vendas é onde o funil quebra: 0% do esperado até 25/10.",
+   "etapas": [
+    {
+     "k": "inv",
+     "rotulo": "Investimento",
+     "dinheiro": true,
+     "meta": 10000.0,
+     "esperado": 8064.516129032258,
+     "real": 7622.0,
+     "pct": 0.9451280000000001
+    },
+    {
+     "k": "leads",
+     "rotulo": "Leads",
+     "dinheiro": false,
+     "meta": 250.0,
+     "esperado": 201.61290322580643,
+     "real": 234.0,
+     "pct": 1.1606400000000001
+    },
+    {
+     "k": "mql",
+     "rotulo": "MQL",
+     "dinheiro": false,
+     "meta": 50.0,
+     "esperado": 40.32258064516129,
+     "real": 138.0,
+     "pct": 3.4224
+    },
+    {
+     "k": "sql",
+     "rotulo": "SQL",
+     "dinheiro": false,
+     "meta": 28.0,
+     "esperado": 22.58064516129032,
+     "real": 47.0,
+     "pct": 2.081428571428572
+    },
+    {
+     "k": "vendas",
+     "rotulo": "Vendas",
+     "dinheiro": false,
+     "meta": 2.0,
+     "esperado": 1.6129032258064515,
+     "real": 0.0,
+     "pct": 0.0
+    }
+   ],
+   "conversoes": [
+    {
+     "rotulo": "Leads → MQL",
+     "plano": 0.2,
+     "real": 0.5897435897435898,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "MQL → SQL",
+     "plano": 0.56,
+     "real": 0.34057971014492755,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "SQL → Venda",
+     "plano": 0.07142857142857142,
+     "real": 0.0,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "Custo por lead",
+     "plano": 40.0,
+     "real": 32.572649572649574,
+     "tipo": "brl",
+     "menor_melhor": true
+    }
+   ],
+   "pendencias": [],
+   "dimensoes": [
+    {
+     "rotulo": "Resultado",
+     "ok": false,
+     "texto": "Resultado 0, abaixo de 7."
+    },
+    {
+     "rotulo": "Operação de tráfego",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Qualidade",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Prazo",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Relacionamento",
+     "ok": true,
+     "texto": ""
+    }
+   ],
+   "historico": {
+    "Resultado": [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "Operação de tráfego": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Qualidade": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Prazo": [
+     true,
+     true,
+     true,
+     true,
+     false,
+     false,
+     true,
+     true
+    ],
+    "Relacionamento": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "plano": [],
+   "plano_nota": ""
+  },
+  {
+   "id": "P08",
+   "documentId": "exemplo08",
+   "nome": "Projeto 08",
+   "nome_cockpit": "PROJETO 08 LTDA",
+   "grupo": "hs",
+   "hs": 20.7,
+   "resultado": 9.0,
+   "meta_oficial": {
+    "tipo": "VENDAS",
+    "meta": 13.0,
+    "alcancado": 10.0,
+    "pct": 0.953846153846154
+   },
+   "gargalo": {
+    "familia": "topo",
+    "etapa": "leads",
+    "secundario": ""
+   },
+   "texto": "Leads é onde o funil quebra: 64% do esperado até 25/10.",
+   "etapas": [
+    {
+     "k": "inv",
+     "rotulo": "Investimento",
+     "dinheiro": true,
+     "meta": 6000.0,
+     "esperado": 4838.709677419354,
+     "real": 3840.0,
+     "pct": 0.7936000000000001
+    },
+    {
+     "k": "leads",
+     "rotulo": "Leads",
+     "dinheiro": false,
+     "meta": 120.0,
+     "esperado": 96.77419354838709,
+     "real": 62.0,
+     "pct": 0.6406666666666667
+    },
+    {
+     "k": "mql",
+     "rotulo": "MQL",
+     "dinheiro": false,
+     "meta": 84.0,
+     "esperado": 67.74193548387096,
+     "real": 41.0,
+     "pct": 0.6052380952380954
+    },
+    {
+     "k": "sql",
+     "rotulo": "SQL",
+     "dinheiro": false,
+     "meta": 37.0,
+     "esperado": 29.838709677419352,
+     "real": 31.0,
+     "pct": 1.038918918918919
+    },
+    {
+     "k": "vendas",
+     "rotulo": "Vendas",
+     "dinheiro": false,
+     "meta": 13.0,
+     "esperado": 10.483870967741934,
+     "real": 10.0,
+     "pct": 0.953846153846154
+    },
+    {
+     "k": "fat",
+     "rotulo": "Faturamento",
+     "dinheiro": true,
+     "meta": 210000.0,
+     "esperado": 169354.8387096774,
+     "real": 100000.0,
+     "pct": 0.5904761904761906
+    }
+   ],
+   "conversoes": [
+    {
+     "rotulo": "Leads → MQL",
+     "plano": 0.7,
+     "real": 0.6612903225806451,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "MQL → SQL",
+     "plano": 0.44047619047619047,
+     "real": 0.7560975609756098,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "SQL → Venda",
+     "plano": 0.35135135135135137,
+     "real": 0.3225806451612903,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "Custo por lead",
+     "plano": 50.0,
+     "real": 61.935483870967744,
+     "tipo": "brl",
+     "menor_melhor": true
+    }
+   ],
+   "pendencias": [],
+   "dimensoes": [
+    {
+     "rotulo": "Resultado",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Operação de tráfego",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Qualidade",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Prazo",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Relacionamento",
+     "ok": true,
+     "texto": ""
+    }
+   ],
+   "historico": {
+    "Resultado": [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true
+    ],
+    "Operação de tráfego": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Qualidade": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     true
+    ],
+    "Prazo": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     true
+    ],
+    "Relacionamento": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "plano": [],
+   "plano_nota": ""
+  },
+  {
+   "id": "P09",
+   "documentId": "exemplo09",
+   "nome": "Projeto 09",
+   "nome_cockpit": "PROJETO 09 LTDA",
+   "grupo": "hs",
+   "hs": 20.7,
+   "resultado": 0.0,
+   "meta_oficial": {
+    "tipo": "Faturamento",
+    "meta": 49266.0,
+    "alcancado": 1704.0,
+    "pct": 0.04288880769699185
+   },
+   "gargalo": {
+    "familia": "fecha",
+    "etapa": "vendas",
+    "secundario": ""
+   },
+   "texto": "Vendas é onde o funil quebra: 9% do esperado até 25/10.",
+   "etapas": [
+    {
+     "k": "inv",
+     "rotulo": "Investimento",
+     "dinheiro": true,
+     "meta": 4000.0,
+     "esperado": 3225.806451612903,
+     "real": 2590.85,
+     "pct": 0.8031635
+    },
+    {
+     "k": "leads",
+     "rotulo": "Leads",
+     "dinheiro": false,
+     "meta": 225.0,
+     "esperado": 181.4516129032258,
+     "real": 575.0,
+     "pct": 3.168888888888889
+    },
+    {
+     "k": "mql",
+     "rotulo": "MQL",
+     "dinheiro": false,
+     "meta": 104.0,
+     "esperado": 83.87096774193547,
+     "real": 154.0,
+     "pct": 1.8361538461538465
+    },
+    {
+     "k": "sql",
+     "rotulo": "SQL",
+     "dinheiro": false,
+     "meta": 36.0,
+     "esperado": 29.032258064516128,
+     "real": null,
+     "pct": null
+    },
+    {
+     "k": "vendas",
+     "rotulo": "Vendas",
+     "dinheiro": false,
+     "meta": 14.0,
+     "esperado": 11.29032258064516,
+     "real": 1.0,
+     "pct": 0.08857142857142858
+    },
+    {
+     "k": "fat",
+     "rotulo": "Faturamento",
+     "dinheiro": true,
+     "meta": 49266.0,
+     "esperado": 39730.64516129032,
+     "real": 1704.0,
+     "pct": 0.04288880769699185
+    }
+   ],
+   "conversoes": [
+    {
+     "rotulo": "Leads → MQL",
+     "plano": 0.4622222222222222,
+     "real": 0.2678260869565217,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "MQL → SQL",
+     "plano": 0.34615384615384615,
+     "real": null,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "SQL → Venda",
+     "plano": 0.3888888888888889,
+     "real": null,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "Custo por lead",
+     "plano": 17.77777777777778,
+     "real": 4.505826086956522,
+     "tipo": "brl",
+     "menor_melhor": true
+    }
+   ],
+   "pendencias": [
+    "SQL sem lançamento do mês (último registro 18/09)"
+   ],
+   "dimensoes": [
+    {
+     "rotulo": "Resultado",
+     "ok": false,
+     "texto": "Resultado 0, abaixo de 7."
+    },
+    {
+     "rotulo": "Operação de tráfego",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Qualidade",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Prazo",
+     "ok": false,
+     "texto": "Demora do cliente. Cliente ainda não gravou os vídeos"
+    },
+    {
+     "rotulo": "Relacionamento",
+     "ok": true,
+     "texto": ""
+    }
+   ],
+   "historico": {
+    "Resultado": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "Operação de tráfego": [
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Qualidade": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Prazo": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false
+    ],
+    "Relacionamento": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "plano": [],
+   "plano_nota": ""
+  },
+  {
+   "id": "P10",
+   "documentId": "exemplo10",
+   "nome": "Projeto 10",
+   "nome_cockpit": "PROJETO 10 LTDA",
+   "grupo": "hs",
+   "hs": 20.8,
+   "resultado": 7.0,
+   "meta_oficial": {
+    "tipo": "Faturamento",
+    "meta": 165000.0,
+    "alcancado": 92400.0,
+    "pct": 0.6944000000000001
+   },
+   "gargalo": {
+    "familia": "topo",
+    "etapa": "leads",
+    "secundario": ""
+   },
+   "texto": "Leads é onde o funil quebra: 34% do esperado até 25/10.",
+   "etapas": [
+    {
+     "k": "inv",
+     "rotulo": "Investimento",
+     "dinheiro": true,
+     "meta": 9000.0,
+     "esperado": 7258.064516129032,
+     "real": 3465.0,
+     "pct": 0.4774
+    },
+    {
+     "k": "leads",
+     "rotulo": "Leads",
+     "dinheiro": false,
+     "meta": 769.0,
+     "esperado": 620.1612903225806,
+     "real": 212.0,
+     "pct": 0.34184655396618985
+    },
+    {
+     "k": "vendas",
+     "rotulo": "Vendas",
+     "dinheiro": false,
+     "meta": 155.0,
+     "esperado": 124.99999999999999,
+     "real": 77.0,
+     "pct": 0.6160000000000001
+    },
+    {
+     "k": "fat",
+     "rotulo": "Faturamento",
+     "dinheiro": true,
+     "meta": 120000.0,
+     "esperado": 96774.19354838709,
+     "real": 92400.0,
+     "pct": 0.9548000000000001
+    }
+   ],
+   "conversoes": [
+    {
+     "rotulo": "Leads → Venda",
+     "plano": 0.20156046814044212,
+     "real": 0.3632075471698113,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "Custo por lead",
+     "plano": 11.703511053315994,
+     "real": 16.34433962264151,
+     "tipo": "brl",
+     "menor_melhor": true
+    }
+   ],
+   "pendencias": [
+    "Meta de tráfego R$ 120.000 × meta oficial R$ 165.000"
+   ],
+   "dimensoes": [
+    {
+     "rotulo": "Resultado",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Operação de tráfego",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Qualidade",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Prazo",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Relacionamento",
+     "ok": true,
+     "texto": ""
+    }
+   ],
+   "historico": {
+    "Resultado": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true
+    ],
+    "Operação de tráfego": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Qualidade": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Prazo": [
+     true,
+     true,
+     true,
+     true,
+     false,
+     false,
+     true,
+     true
+    ],
+    "Relacionamento": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     true
+    ]
+   },
+   "plano": [],
+   "plano_nota": ""
+  },
+  {
+   "id": "P11",
+   "documentId": "exemplo11",
+   "nome": "Projeto 11",
+   "nome_cockpit": "PROJETO 11 LTDA",
+   "grupo": "res",
+   "hs": 21.7,
+   "resultado": 0.0,
+   "meta_oficial": {
+    "tipo": "Faturamento",
+    "meta": 125000.0,
+    "alcancado": 0.0,
+    "pct": 0.0
+   },
+   "gargalo": {
+    "familia": "sql",
+    "etapa": "sql",
+    "secundario": ""
+   },
+   "texto": "SQL é onde o funil quebra: 0% do esperado até 25/10.",
+   "etapas": [
+    {
+     "k": "inv",
+     "rotulo": "Investimento",
+     "dinheiro": true,
+     "meta": 3500.0,
+     "esperado": 2822.5806451612902,
+     "real": 2119.3,
+     "pct": 0.7508377142857143
+    },
+    {
+     "k": "leads",
+     "rotulo": "Leads",
+     "dinheiro": false,
+     "meta": 130.0,
+     "esperado": 104.83870967741935,
+     "real": 116.0,
+     "pct": 1.1064615384615386
+    },
+    {
+     "k": "mql",
+     "rotulo": "MQL",
+     "dinheiro": false,
+     "meta": 59.0,
+     "esperado": 47.58064516129032,
+     "real": 63.0,
+     "pct": 1.3240677966101695
+    },
+    {
+     "k": "sql",
+     "rotulo": "SQL",
+     "dinheiro": false,
+     "meta": 11.0,
+     "esperado": 8.870967741935484,
+     "real": 0.0,
+     "pct": 0.0
+    },
+    {
+     "k": "vendas",
+     "rotulo": "Vendas",
+     "dinheiro": false,
+     "meta": 5.0,
+     "esperado": 4.032258064516129,
+     "real": 0.0,
+     "pct": 0.0
+    },
+    {
+     "k": "fat",
+     "rotulo": "Faturamento",
+     "dinheiro": true,
+     "meta": 125000.0,
+     "esperado": 100806.45161290321,
+     "real": 0.0,
+     "pct": 0.0
+    }
+   ],
+   "conversoes": [
+    {
+     "rotulo": "Leads → MQL",
+     "plano": 0.45384615384615384,
+     "real": 0.5431034482758621,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "MQL → SQL",
+     "plano": 0.1864406779661017,
+     "real": 0.0,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "SQL → Venda",
+     "plano": 0.45454545454545453,
+     "real": null,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "Custo por lead",
+     "plano": 26.923076923076923,
+     "real": 18.269827586206898,
+     "tipo": "brl",
+     "menor_melhor": true
+    }
+   ],
+   "pendencias": [],
+   "dimensoes": [
+    {
+     "rotulo": "Resultado",
+     "ok": false,
+     "texto": "Resultado 0, abaixo de 7."
+    },
+    {
+     "rotulo": "Operação de tráfego",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Qualidade",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Prazo",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Relacionamento",
+     "ok": true,
+     "texto": ""
+    }
+   ],
+   "historico": {
+    "Resultado": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "Operação de tráfego": [
+     false,
+     false,
+     true,
+     true,
+     false,
+     true,
+     true,
+     true
+    ],
+    "Qualidade": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Prazo": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Relacionamento": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "plano": [],
+   "plano_nota": ""
+  },
+  {
+   "id": "P12",
+   "documentId": "exemplo12",
+   "nome": "Projeto 12",
+   "nome_cockpit": "PROJETO 12 LTDA",
+   "grupo": "res",
+   "hs": 21.8,
+   "resultado": 0.0,
+   "meta_oficial": {
+    "tipo": "Faturamento",
+    "meta": 28000.0,
+    "alcancado": 514.0,
+    "pct": 0.022762857142857144
+   },
+   "gargalo": {
+    "familia": "fecha",
+    "etapa": "vendas",
+    "secundario": ""
+   },
+   "texto": "Vendas é onde o funil quebra: 10% do esperado até 25/10.",
+   "etapas": [
+    {
+     "k": "inv",
+     "rotulo": "Investimento",
+     "dinheiro": true,
+     "meta": 5000.0,
+     "esperado": 4032.258064516129,
+     "real": 4309.0,
+     "pct": 1.068632
+    },
+    {
+     "k": "leads",
+     "rotulo": "Leads",
+     "dinheiro": false,
+     "meta": 210.0,
+     "esperado": 169.3548387096774,
+     "real": 384.0,
+     "pct": 2.2674285714285713
+    },
+    {
+     "k": "mql",
+     "rotulo": "MQL",
+     "dinheiro": false,
+     "meta": 38.0,
+     "esperado": 30.64516129032258,
+     "real": 161.0,
+     "pct": 5.253684210526316
+    },
+    {
+     "k": "sql",
+     "rotulo": "SQL",
+     "dinheiro": false,
+     "meta": 24.0,
+     "esperado": 19.354838709677416,
+     "real": 29.0,
+     "pct": 1.4983333333333335
+    },
+    {
+     "k": "vendas",
+     "rotulo": "Vendas",
+     "dinheiro": false,
+     "meta": 24.0,
+     "esperado": 19.354838709677416,
+     "real": 2.0,
+     "pct": 0.10333333333333335
+    },
+    {
+     "k": "fat",
+     "rotulo": "Faturamento",
+     "dinheiro": true,
+     "meta": 28000.0,
+     "esperado": 22580.645161290322,
+     "real": 1172.0,
+     "pct": 0.051902857142857146
+    }
+   ],
+   "conversoes": [
+    {
+     "rotulo": "Leads → MQL",
+     "plano": 0.18095238095238095,
+     "real": 0.4192708333333333,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "MQL → SQL",
+     "plano": 0.631578947368421,
+     "real": 0.18012422360248448,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "SQL → Venda",
+     "plano": 1.0,
+     "real": 0.06896551724137931,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "Custo por lead",
+     "plano": 23.80952380952381,
+     "real": 11.221354166666666,
+     "tipo": "brl",
+     "menor_melhor": true
+    }
+   ],
+   "pendencias": [],
+   "dimensoes": [
+    {
+     "rotulo": "Resultado",
+     "ok": false,
+     "texto": "Resultado 0, abaixo de 7."
+    },
+    {
+     "rotulo": "Operação de tráfego",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Qualidade",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Prazo",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Relacionamento",
+     "ok": true,
+     "texto": ""
+    }
+   ],
+   "historico": {
+    "Resultado": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "Operação de tráfego": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Qualidade": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Prazo": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Relacionamento": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "plano": [],
+   "plano_nota": ""
+  },
+  {
+   "id": "P13",
+   "documentId": "exemplo13",
+   "nome": "Projeto 13",
+   "nome_cockpit": "PROJETO 13 LTDA",
+   "grupo": "res",
+   "hs": 23.3,
+   "resultado": 0.0,
+   "meta_oficial": {
+    "tipo": "Faturamento",
+    "meta": 5000.0,
+    "alcancado": 0.0,
+    "pct": 0.0
+   },
+   "gargalo": {
+    "familia": "qualif",
+    "etapa": "mql",
+    "secundario": ""
+   },
+   "texto": "MQL é onde o funil quebra: 0% do esperado até 25/10.",
+   "etapas": [
+    {
+     "k": "inv",
+     "rotulo": "Investimento",
+     "dinheiro": true,
+     "meta": 3900.0,
+     "esperado": 3145.1612903225805,
+     "real": 1761.08,
+     "pct": 0.5599331282051282
+    },
+    {
+     "k": "leads",
+     "rotulo": "Leads",
+     "dinheiro": false,
+     "meta": 33.0,
+     "esperado": 26.61290322580645,
+     "real": 6.0,
+     "pct": 0.2254545454545455
+    },
+    {
+     "k": "mql",
+     "rotulo": "MQL",
+     "dinheiro": false,
+     "meta": 10.0,
+     "esperado": 8.064516129032258,
+     "real": 0.0,
+     "pct": 0.0
+    },
+    {
+     "k": "sql",
+     "rotulo": "SQL",
+     "dinheiro": false,
+     "meta": 5.0,
+     "esperado": 4.032258064516129,
+     "real": 0.0,
+     "pct": 0.0
+    },
+    {
+     "k": "vendas",
+     "rotulo": "Vendas",
+     "dinheiro": false,
+     "meta": 1.0,
+     "esperado": 0.8064516129032258,
+     "real": null,
+     "pct": null
+    },
+    {
+     "k": "fat",
+     "rotulo": "Faturamento",
+     "dinheiro": true,
+     "meta": 5000.0,
+     "esperado": 4032.258064516129,
+     "real": null,
+     "pct": null
+    }
+   ],
+   "conversoes": [
+    {
+     "rotulo": "Leads → MQL",
+     "plano": 0.30303030303030304,
+     "real": 0.0,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "MQL → SQL",
+     "plano": 0.5,
+     "real": null,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "SQL → Venda",
+     "plano": 0.2,
+     "real": null,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "Custo por lead",
+     "plano": 118.18181818181819,
+     "real": 293.5133333333333,
+     "tipo": "brl",
+     "menor_melhor": true
+    }
+   ],
+   "pendencias": [
+    "Vendas sem lançamento do mês (último registro 11/09)",
+    "Faturamento sem lançamento do mês (último registro 04/09)"
+   ],
+   "dimensoes": [
+    {
+     "rotulo": "Resultado",
+     "ok": false,
+     "texto": "Resultado 0, abaixo de 7."
+    },
+    {
+     "rotulo": "Operação de tráfego",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Qualidade",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Prazo",
+     "ok": false,
+     "texto": "Demora do cliente. Cliente ainda não validou os materiais da campanha para o LinkedIn Ads"
+    },
+    {
+     "rotulo": "Relacionamento",
+     "ok": true,
+     "texto": ""
+    }
+   ],
+   "historico": {
+    "Resultado": [
+     true,
+     true,
+     false,
+     true,
+     true,
+     false,
+     false,
+     false
+    ],
+    "Operação de tráfego": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Qualidade": [
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Prazo": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false
+    ],
+    "Relacionamento": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "plano": [],
+   "plano_nota": ""
+  },
+  {
+   "id": "P14",
+   "documentId": "exemplo14",
+   "nome": "Projeto 14",
+   "nome_cockpit": "PROJETO 14 LTDA",
+   "grupo": "res",
+   "hs": 23.5,
+   "resultado": 4.0,
+   "meta_oficial": {
+    "tipo": "Faturamento",
+    "meta": 100000.0,
+    "alcancado": 31455.0,
+    "pct": 0.390042
+   },
+   "gargalo": {
+    "familia": "topo",
+    "etapa": "leads",
+    "secundario": ""
+   },
+   "texto": "Leads é onde o funil quebra: 50% do esperado até 25/10.",
+   "etapas": [
+    {
+     "k": "inv",
+     "rotulo": "Investimento",
+     "dinheiro": true,
+     "meta": 5000.0,
+     "esperado": 4032.258064516129,
+     "real": 2989.0,
+     "pct": 0.741272
+    },
+    {
+     "k": "leads",
+     "rotulo": "Leads",
+     "dinheiro": false,
+     "meta": 250.0,
+     "esperado": 201.61290322580643,
+     "real": 100.0,
+     "pct": 0.49600000000000005
+    },
+    {
+     "k": "mql",
+     "rotulo": "MQL",
+     "dinheiro": false,
+     "meta": 80.0,
+     "esperado": 64.51612903225806,
+     "real": 27.0,
+     "pct": 0.4185
+    },
+    {
+     "k": "sql",
+     "rotulo": "SQL",
+     "dinheiro": false,
+     "meta": 40.0,
+     "esperado": 32.25806451612903,
+     "real": 14.0,
+     "pct": 0.434
+    },
+    {
+     "k": "vendas",
+     "rotulo": "Vendas",
+     "dinheiro": false,
+     "meta": 12.0,
+     "esperado": 9.677419354838708,
+     "real": 7.0,
+     "pct": 0.7233333333333335
+    },
+    {
+     "k": "fat",
+     "rotulo": "Faturamento",
+     "dinheiro": true,
+     "meta": 145500.0,
+     "esperado": 117338.70967741935,
+     "real": 31455.0,
+     "pct": 0.2680701030927835
+    }
+   ],
+   "conversoes": [
+    {
+     "rotulo": "Leads → MQL",
+     "plano": 0.32,
+     "real": 0.27,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "MQL → SQL",
+     "plano": 0.5,
+     "real": 0.5185185185185185,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "SQL → Venda",
+     "plano": 0.3,
+     "real": 0.5,
+     "tipo": "pct"
+    },
+    {
+     "rotulo": "Custo por lead",
+     "plano": 20.0,
+     "real": 29.89,
+     "tipo": "brl",
+     "menor_melhor": true
+    }
+   ],
+   "pendencias": [
+    "Meta de tráfego R$ 145.500 × meta oficial R$ 100.000"
+   ],
+   "dimensoes": [
+    {
+     "rotulo": "Resultado",
+     "ok": false,
+     "texto": "Resultado 4, abaixo de 7."
+    },
+    {
+     "rotulo": "Operação de tráfego",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Qualidade",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Prazo",
+     "ok": true,
+     "texto": ""
+    },
+    {
+     "rotulo": "Relacionamento",
+     "ok": true,
+     "texto": ""
+    }
+   ],
+   "historico": {
+    "Resultado": [
+     true,
+     true,
+     false,
+     true,
+     true,
+     false,
+     false,
+     false
+    ],
+    "Operação de tráfego": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Qualidade": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Prazo": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "Relacionamento": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     true
+    ]
+   },
+   "plano": [],
+   "plano_nota": ""
+  }
+ ],
+ "fora": [
+  {
+   "nome": "Projeto fora 1",
+   "hs": 23.9,
+   "resultado": 10.0
+  },
+  {
+   "nome": "Projeto fora 2",
+   "hs": 24.2,
+   "resultado": 10.0
+  },
+  {
+   "nome": "Projeto fora 3",
+   "hs": 22.0,
+   "resultado": 8.0
+  },
+  {
+   "nome": "Projeto fora 4",
+   "hs": 22.3,
+   "resultado": 10.0
+  }
+ ],
+ "fonte": "Cockpit, aba Gestão de Tráfego (lançamentos até 25/10)."
+}
